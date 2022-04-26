@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="form_style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h2>User Form</h2>
+    
+            </div>
+            <form >
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" style="max-height: 50px; width: 250px; margin-left: 150px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password" style="margin-top: 25px;">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" style="max-height: 50px; width: 250px; margin-left: 150px; margin-top: 25px;" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender"  style="margin-top: 25px;">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male" style="margin-left: 150px;margin-top: 25px;"> Male
+                            <input type="radio" name="gender" value="female" > Female<br>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address"  style="margin-top: 25px;">Address</label>
+                        </td>
+                        <td>
+                            <input type="text" name="address" style="max-height: 50px; width: 450px; margin-left: 150px;margin-top: 25px;">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="dob"  style="margin-top: 25px;">D.O.B</label>
+                        </td>
+                        <td>
+                            <input type="date" name="dob" style="margin-left: 150px;margin-top: 25px;">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="games"  style="margin-top: 25px;">Select Games</label> 
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Hockey" id="games" style="margin-left: 150px;margin-top: 25px;">Hockey
+                            <input type="checkbox" name="Hockey" id="games" >Football
+                            <input type="checkbox" name="Hockey" id="games" >Cricket
+                            <input type="checkbox" name="Hockey" id="games" >VolleyBall
+                            <br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="status"  style="margin-top: 25px;">Marital Status</label>
+                        </td>
+                        <td>
+                            <input type="radio"  id="status" style="margin-left: 150px;margin-top: 25px;"> Married
+                            <input type="radio"  id="status" > Unmarried <br>
+                        </td>
+                    </tr>
+                </table> 
+                <div class="btn">
+                <button>Submit</button>
+                <button>Reset</button> 
+
+                </div>
+                <div class="accept">
+                    <input type="checkbox" > I accept this agreement
+
+                </div>
+                 
+            </form>
+        </div>
+    </body>
+</html>

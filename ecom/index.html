@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+    </head>
+    <body>
+        <h1 style="text-align: center; background-color: beige; ">Shop Easy  </h1>
+
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+          <button class="w3-bar-item w3-button w3-large"
+          onclick="w3_close()">Close &times;</button>
+          <a href="#" class="w3-bar-item w3-button">Profile</a>
+          <a href="#" class="w3-bar-item w3-button">Cart</a>
+          <a href="#" class="w3-bar-item w3-button">Payment</a>
+          <a href="#" class="w3-bar-item w3-button">Sign Out</a>
+        </div>
+        
+        <div id="main">
+        
+        <div class="w3-teal">
+          <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+        </div>
+
+        <script>
+          function w3_open() {
+            document.getElementById("main").style.marginLeft = "25%";
+            document.getElementById("mySidebar").style.width = "25%";
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("openNav").style.display = 'none';
+          }
+          function w3_close() {
+            document.getElementById("main").style.marginLeft = "0%";
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
+          }
+          </script>
+
+        <div class="Cont">
+            <h1 class="Heading">MEN</h1>
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="images/m1.jpg" class="item-image" />
+      
+                  <h1>Shirts</h1>
+                  <p class="price">1499 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/m2.jpg" class="item-image" />
+                <h1>Trousers</h1>
+                <p class="price">1999 /-</p>
+      
+                <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/m3.jpg" class="item-image" />
+                  <h1>Shoes</h1>
+                  <p class="price">2000 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+            </div>
+            <h1 class="Heading">WOMEN</h1>
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="images/w1.png" class="item-image" />
+      
+                  <h1>Shirts</h1>
+                  <p class="price">1499 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/w2.jpeg" class="item-image" />
+                <h1>Trousers</h1>
+                <p class="price">1999 /-</p>
+      
+                <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/w3.jpg" class="item-image" />
+                  <h1>Shoes</h1>
+                  <p class="price">2000 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+            </div>
+      
+            <h1 class="Heading">KIDS</h1>
+      
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="images/k1.jpg" class="item-image" />
+      
+                  <h1>Shirts</h1>
+                  <p class="price">999 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/k2.jpg" class="item-image" />
+                <h1>Trousers</h1>
+                <p class="price">999 /-</p>
+      
+                <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/k3.jpg" class="item-image" />
+                  <h1>Shoes</h1>
+                  <p class="price">899 /-</p>
+        
+                  <p><button>Add to Cart</button></p>
+      
+                </div>
+              </div>
+            </div>
+
+
+
+ 
+    </body>
+</html>

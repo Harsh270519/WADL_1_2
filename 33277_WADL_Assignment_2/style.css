@@ -1,0 +1,22 @@
+body{
+    background-color: cornsilk;
+}
+
+
+.intro{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border: 2px;
+}

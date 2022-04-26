@@ -1,0 +1,26 @@
+.container{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #000000;
+    padding: 10px;
+    background-color: wheat;
+
+}
+
+
+
+.heading{
+    text-align: center;
+   
+
+}
+
+.btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.accept{
+    text-align: center;
+    margin-top: 50px;
+}
